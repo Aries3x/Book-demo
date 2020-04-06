@@ -1,0 +1,408 @@
+﻿@{
+    Layout = null;
+
+}
+
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <h3>图书管理系统 </h3>
+                <div class="form-group">
+                    <p>
+                        <input type="text" class="" id="name" placeholder="请输入名称" />
+                        <button type="button" class="btn btn-default" id="searchBtn">搜索</button>
+                    </p>
+
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#insertModal">
+                        添加
+                    </button>
+                </div>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>编号</th>
+                            <th>图书名字</th>
+                            <th>单价 </th>
+                            <th>发布时间</th>
+                            <th>最后修改时间</th>
+                            <th>操作 </th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+        <ul class="pagination">
+            <li><a href="#">&laquo;</a></li>
+
+
+        </ul>
+
+    </div>
+
+
+
+
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="insertModal"
+         tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        添加图书信息
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group" style="padding-top:50px">
+                        <label for="lastname" class="col-sm-2 control-label">图书名字</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="bookname">
+                        </div>
+                    </div>
+                    <div class="form-group" style="padding-top:50px">
+                        <label for="lastname" class="col-sm-2 control-label">单价</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="price">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        关闭
+                    </button>
+                    <button type="button" class="btn btn-primary" onclick="insertBook()">
+                        确定
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="UpdateModal"
+         tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        修改图书信息
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group" style="padding-top:50px">
+                        <label for="lastname" class="col-sm-2 control-label">图书名字</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control update_bookname" id="update_bookname">
+                        </div>
+                    </div>
+                    <div class="form-group" style="padding-top:50px">
+                        <label for="lastname" class="col-sm-2 control-label">单价</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control update_price" id="update_price">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        关闭
+                    </button>
+                    <button type="button" class="btn btn-primary" id="updateBtn">
+                        提交修改
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        $(function () {
+
+            GetAllBook();
+
+            Search();
+
+        })
+
+        function Search() {
+            $("#searchBtn").click(function () {
+                $.ajax({
+                    url: "/Home/GetBookByName",
+                    type: "get",
+                    data: {
+                        name: $("#name").val()
+                    },
+                    success: function (data) {
+                        if (data.code == "200") {
+                            var html = "";
+                            $.each(data.data, function (index, data) {
+                                var createdate = formatDate(data.createDate);
+                                var modifydate = formatDate(data.modifyDate);
+
+                                html += " <tr>"
+                                    + "<td>" + data.bookid + "</td>"
+                                    + "<td>" + data.name + "</td>"
+                                    + "<td> ￥" + data.price + "</td>"
+                                    + "<td>" + createdate + " </td>"
+                                    + "<td>" + modifydate + " </td>"
+                                    + "<td> <button type='button' class='btn btn-danger' onclick='Del(" + data.bookid + ")'>删除</button> <button type='button' class='btn btn-info'  data-toggle='modal' data-target='#UpdateModal'  onclick='update(" + data.bookid + ")'>编辑</button>"
+                                    + "</td >"
+                                    + "</tr>";
+                            })
+                            $("tbody").empty().append(html);
+                        }
+                        if (data.code == "404") {
+                            alert(data.errorMsg);
+                        }
+                    }
+                })
+            });
+        }
+
+        function insertBook() {
+            if ($("#bookname").val().trim() == "" || $("#price").val().trim() == null) {
+                alert("图书信息不能为空");
+                return;
+            }
+            if (checkNum($("#price").val().trim())) {
+                alert("金额输入错误");
+                return;
+            }
+
+            $.ajax({
+                url: "/Home/InsertBook",
+                type: "post",
+                data: {
+                    name: $("#bookname").val(),
+                    price: $("#price").val()
+                },
+                success: function (data) {
+                    if (data.code == "200") {
+                        alert(data.errorMsg);
+                        window.location.reload();
+                    } else if (data.code == "500") {
+                        alert(data.errorMsg);
+                    } else if (data.code == "302") {
+                        alert(data.errorMsg);
+                    }
+                }
+            })
+        }
+
+        function GetAllBook() {
+
+            $.ajax({
+                url: "/Home/GetPage",
+                type: "get",
+                data: {
+                    currentPage: 1,
+                    pageSize: 3
+                },
+                dataType: "json",
+                success: function (data) {
+                    if (data.code == "200") {
+                        var html = "";
+                        var currentPage = Math.ceil(data.totalPage / 3);
+                        var pagehtml = "";
+                        for (var i = 1; i <= currentPage; i++) {
+                            pagehtml += "<li><a href='javascript:void(0)' onclick='changeByPage()' class='pagechange' currentpage=" + i + ">" + i + "</a></li>";
+
+                        }
+                        pagehtml += " <li ><a href='#'>&raquo;</a></li>";
+                        $("ul").append(pagehtml);
+
+                        $.each(data.data, function (index, data) {
+                            var createdate = formatDate(data.createDate);
+                            var modifydate = formatDate(data.modifyDate);
+
+                            html += " <tr>"
+                                + "<td>" + data.bookid + "</td>"
+                                + "<td>" + data.name + "</td>"
+                                + "<td> ￥" + data.price + "</td>"
+                                + "<td>" + createdate + " </td>"
+                                + "<td>" + modifydate + " </td>"
+                                + "<td> <button type='button' class='btn btn-danger' onclick='Del(" + data.bookid + ")'>删除</button> <button type='button' class='btn btn-info' data-toggle='modal' data-target='#UpdateModal' onclick='update(" + data.bookid + ")'>编辑</button>"
+                                + "</td >"
+                                + "</tr>";
+                        })
+                        $("tbody").append(html);
+                    }
+                }
+            });
+        }
+
+        function checkNum(num) {
+            var numTest = /^[1-9]{1}\d*(.\d{1,2})?$|^0.\d{1,2}$/;
+            if (!numTest.test(num)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function update(id) {
+            UpdateBook(id);
+        }
+
+        function UpdateBook(id) {
+
+            $.ajax({
+                url: "/Home/GetOneBookByID",
+                type: "get",
+                data: { bookID: id },
+                dataType: "json",
+                success: function (data) {
+                    console.info(data.data[0].name);
+                    $(".update_bookname").val(data.data[0].name);
+                    $(".update_price").val(data.data[0].price);
+                }
+            })
+
+            $("#updateBtn").click(function () {
+                if ($("#update_bookname").val().trim() == "" || $("#update_price").val().trim() == null) {
+                    alert("图书信息不能为空");
+                    return false;
+                }
+
+                if (checkNum($("#update_price").val())) {
+                    alert("金额输入错误");
+                    return false;
+                }
+
+                $.ajax({
+                    url: "/Home/UpdateBook",
+                    type: "post",
+                    data: {
+                        name: $("#update_bookname").val(),
+                        price: $("#update_price").val(),
+                        bookID: id
+                    },
+                    success: function (data) {
+                        if (data.code == "200") {
+                            alert(data.errorMsg);
+                            window.location.reload();
+                        } else if (data.code == "500") {
+                            alert(data.errorMsg);
+                        }
+                    }
+                })
+            })
+        }
+
+        function Del(id) {
+            var ff = confirm("确认删除？");
+            if (ff) {
+                $.ajax({
+                    url: "/Home/DeleteBook",
+                    type: "post",
+                    data: { Bookid: id },
+                    success: function (data) {
+                        if (data.code == "200") {
+                            alert(data.errorMsg);
+                            window.location.reload();
+                        } else if (data.code == "302") {
+                            alert(data.errorMsg);
+                            window.location.href = "/Account/SignIn";
+
+                        }
+
+                    }
+
+                })
+            }
+        }
+
+        function formatDate(date) {
+
+            var d = new Date(date);
+            var month = d.getMonth() + 1;
+            var hour = d.getHours().toString();
+            if (hour.length <= 1) {
+                hour = "0" + hour;
+            }
+
+            var minutes = d.getMinutes().toString();
+            if (minutes.length <= 1) {
+                minutes = "0" + minutes;
+            }
+
+            var seconds = d.getSeconds().toString();
+            if (seconds.length <= 1) {
+                seconds = "0" + seconds;
+            }
+
+            return d.getFullYear() + "年" + month + "月" + d.getDate() + "日   " + hour + ":" + minutes + ":" + seconds;
+        }
+
+        function changeByPage() {
+            $(".pagechange").on("click", function () {
+                $(this).addClass("active");
+                $.ajax({
+                    url: "/Home/GetPage",
+                    type: "get",
+                    data: {
+                        currentPage: $(this).attr("currentPage"),
+                        pageSize: 3
+                    },
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.code == "200") {
+                            var html = "";
+                            var currentPage = Math.ceil(data.totalPage / 3);
+                            var pagehtml = "";
+                            for (var i = 1; i <= currentPage; i++) {
+                                pagehtml += "<li><a href='javascript:void(0)' onclick='changeByPage()' class='pagechange' currentpage=" + i + ">" + i + "</a></li>";
+                            }
+                            pagehtml += " <li><a href='#'>&raquo;</a></li>";
+                            $("ul").empty().append(pagehtml);
+
+                            $.each(data.data, function (index, data) {
+                                var createdate = formatDate(data.createDate);
+                                var modifydate = formatDate(data.modifyDate);
+
+                                html += " <tr>"
+                                    + "<td>" + data.bookid + "</td>"
+                                    + "<td>" + data.name + "</td>"
+                                    + "<td> ￥" + data.price + "</td>"
+                                    + "<td>" + createdate + " </td>"
+                                    + "<td>" + modifydate + " </td>"
+                                    + "<td> <button type='button' class='btn btn-danger' onclick='Del(" + data.bookid + ")'>删除</button> <button type='button' class='btn btn-info' data-toggle='modal' data-target='#UpdateModal' onclick='update(" + data.bookid + ")'>编辑</button>"
+                                    + "</td >"
+                                    + "</tr>";
+                            })
+                            $("tbody").empty().append(html);
+                        }
+                    }
+                });
+            })
+
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorAssemblyInfo.cache
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorAssemblyInfo.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.AssemblyInfoInputs.cache
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.AssemblyInfo.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.csprojAssemblyReference.cache
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\appsettings.json
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Book.deps.json
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Book.runtimeconfig.json
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Book.runtimeconfig.dev.json
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Book.dll
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Book.pdb
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Book.Views.dll
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Book.Views.pdb
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\BaseHelper.dll
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\BLL.dll
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\DAL.dll
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Entity.dll
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\BLL.pdb
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\Entity.pdb
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+F:\项目\BookText\Book\bin\Debug\netcoreapp2.1\DAL.pdb
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.TagHelpers.input.cache
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.TagHelpers.output.cache
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorCoreGenerate.cache
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorTargetAssemblyInfo.cache
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorTargetAssemblyInfo.cs
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.Views.pdb
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.csproj.CopyComplete
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.dll
+F:\项目\BookText\Book\obj\Debug\netcoreapp2.1\Book.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\appsettings.json
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.deps.json
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.runtimeconfig.json
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.runtimeconfig.dev.json
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.Views.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.Views.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\BaseHelper.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\BLL.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\DAL.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Entity.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\BLL.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Entity.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\bin\Debug\netcoreapp2.1\DAL.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.csprojAssemblyReference.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.csproj.CoreCompileInputs.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorAssemblyInfo.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorAssemblyInfo.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.AssemblyInfoInputs.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.AssemblyInfo.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.TagHelpers.input.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.TagHelpers.output.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorCoreGenerate.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorTargetAssemblyInfo.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorTargetAssemblyInfo.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.Views.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.csproj.CopyComplete
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.genruntimeconfig.cache
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\appsettings.json
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.deps.json
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.runtimeconfig.json
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.runtimeconfig.dev.json
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.dll
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.pdb
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.Views.dll
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Book.Views.pdb
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\BaseHelper.dll
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\BLL.dll
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\DAL.dll
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Entity.dll
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\BLL.pdb
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\Entity.pdb
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+E:\.net core\BookText\BookText\Book\bin\Debug\netcoreapp2.1\DAL.pdb
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.csprojAssemblyReference.cache
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.csproj.CoreCompileInputs.cache
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorAssemblyInfo.cache
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorAssemblyInfo.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.AssemblyInfoInputs.cache
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.AssemblyInfo.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.TagHelpers.input.cache
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.TagHelpers.output.cache
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorCoreGenerate.cache
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorTargetAssemblyInfo.cache
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.RazorTargetAssemblyInfo.cs
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.Views.pdb
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.csproj.CopyComplete
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.dll
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.pdb
+E:\.net core\BookText\BookText\Book\obj\Debug\netcoreapp2.1\Book.genruntimeconfig.cache

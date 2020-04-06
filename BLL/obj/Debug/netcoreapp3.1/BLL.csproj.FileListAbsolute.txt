@@ -1,0 +1,5 @@
+F:\项目\BookText\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+F:\项目\BookText\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+F:\项目\BookText\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+F:\项目\BookText\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+F:\项目\BookText\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs

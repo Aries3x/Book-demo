@@ -1,0 +1,5 @@
+F:\项目\BookText\Entity\bin\Debug\netcoreapp3.1\Entity.deps.json
+F:\项目\BookText\Entity\bin\Debug\netcoreapp3.1\Entity.dll
+F:\项目\BookText\Entity\obj\Debug\netcoreapp3.1\Entity.csprojAssemblyReference.cache
+F:\项目\BookText\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+F:\项目\BookText\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs

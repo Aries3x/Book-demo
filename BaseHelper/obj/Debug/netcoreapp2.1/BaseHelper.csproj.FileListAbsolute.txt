@@ -1,0 +1,26 @@
+F:\项目\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.csprojAssemblyReference.cache
+F:\项目\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.AssemblyInfoInputs.cache
+F:\项目\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.AssemblyInfo.cs
+F:\项目\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.deps.json
+F:\项目\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.dll
+F:\项目\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+F:\项目\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.dll
+F:\项目\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.deps.json
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.csprojAssemblyReference.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.csproj.CoreCompileInputs.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.AssemblyInfoInputs.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.AssemblyInfo.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.pdb
+E:\.net core\BookText\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.deps.json
+E:\.net core\BookText\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.dll
+E:\.net core\BookText\BookText\BaseHelper\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+E:\.net core\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.csprojAssemblyReference.cache
+E:\.net core\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.csproj.CoreCompileInputs.cache
+E:\.net core\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.AssemblyInfoInputs.cache
+E:\.net core\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.AssemblyInfo.cs
+E:\.net core\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.dll
+E:\.net core\BookText\BookText\BaseHelper\obj\Debug\netcoreapp2.1\BaseHelper.pdb

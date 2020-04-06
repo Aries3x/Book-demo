@@ -1,0 +1,35 @@
+F:\项目\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+F:\项目\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+F:\项目\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+F:\项目\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+F:\项目\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+F:\项目\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+F:\项目\BookText\DAL\bin\Debug\netcoreapp2.1\BaseHelper.dll
+F:\项目\BookText\DAL\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+F:\项目\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CopyComplete
+F:\项目\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+F:\项目\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\BaseHelper.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CopyComplete
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+D:\微信\WeChat Files\peiyufan0329\FileStorage\File\2020-04\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
+E:\.net core\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+E:\.net core\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+E:\.net core\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+E:\.net core\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\BaseHelper.dll
+E:\.net core\BookText\BookText\DAL\bin\Debug\netcoreapp2.1\BaseHelper.pdb
+E:\.net core\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+E:\.net core\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+E:\.net core\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+E:\.net core\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CopyComplete
+E:\.net core\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+E:\.net core\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
+E:\.net core\BookText\BookText\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
